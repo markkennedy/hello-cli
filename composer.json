@@ -1,0 +1,19 @@
+{
+    "name": "mkennedy/hello-cli",
+    "description": "A hello world CLI",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MKennedy\\HelloCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Kennedy",
+            "email": "mkennedy@fool.com"
+        }
+    ]
+}
